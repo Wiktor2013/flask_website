@@ -14,3 +14,4 @@ def home():
         return render_template("home.html", message=f"Thanks, {dane['name']}")
 
     return render_template("home.html", message="")
+
